@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background-size: cover;
+}
+
+.clock {
+    position: relative;
+    border: 20px solid white;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-face {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.hand {
+    /* border: 3px solid pink; */
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    height: 6px;
+    width: 50%;
+    /* background-color: #fff; */
+    transform-origin: right;
+    transform: rotate(90deg);
+    box-shadow: 5px -5px 1px rgba(0, 0, 0, .5);
+}
+
+.hour-hand {
+    content: '';
+    border: 1px solid white;
+    background-color: white;
+    /* width: 50px; */
+    height: 10px;
+    width: 80px;
+    border-radius: 4px;
+}
+
+.min-hand {
+    content: '';
+    border: 1px solid white;
+    background-color: white;
+    /* width: 50px; */
+    height: 8px;
+    width: 140px;
+    /* border-radius: 4px; */
+    transform: rotate(10deg)
+}
+
+.second-hand {
+    content: '';
+    border: 1px solid red;
+    background-color: red;
+    /* width: 50px; */
+    height: 3px;
+    width: 160px;
+    /* border-radius: 4px; */
+}
