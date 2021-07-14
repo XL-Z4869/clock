@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background: #018DED url(bg.jpg);
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
     margin-right: auto;
     margin-top: 100px;
     box-shadow: 0 0 17px rgba(0, 0, 0, .6);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .clock-face::after {
@@ -52,7 +52,7 @@ body {
     /* background-color: #fff; */
     transform-origin: right;
     transform: rotate(90deg);
-    box-shadow: 5px -5px 1px rgba(0, 0, 0, .3);
+    box-shadow: 5px -5px 1px rgba(0, 0, 0, .2);
 }
 
 .hour-hand {
