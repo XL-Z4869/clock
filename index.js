@@ -14,6 +14,19 @@ function rotate() {
     secondHand.style.transform = `rotate(${secondDeg}deg)`
 
 }
-
 setInterval(rotate, 1000);
+
+// function timeoutHandler() {
+//     rotate()
+//     setTimeout(timeoutHandler, 1000)
+// }
+// setTimeout(timeoutHandler, 1000)
+
+
+// function animationHandler() {
+//     rotate()
+//     window.requestAnimationFrame(animationHandler)
+// }
+
+// window.requestAnimationFrame(animationHandler)
 rotate()
